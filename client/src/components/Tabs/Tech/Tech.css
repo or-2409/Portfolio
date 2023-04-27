@@ -1,0 +1,50 @@
+.div-icon {
+  background-color: white;
+  height: 1px;
+  width: 80%;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #1b2531;
+  border-radius: 30px;
+  height: 200px;
+  width: 200px;
+}
+.icon {
+  font-size: 110px;
+  color: white;
+}
+.img {
+  color: white;
+  height: 110px;
+  width: 110px;
+}
+.icon-name {
+  text-align: center;
+  color: white;
+}
+@media (min-width: 768px) and (max-width: 1800px) {
+  .card2 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    height: 1000px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .item {
+    margin-top: 30px;
+  }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
